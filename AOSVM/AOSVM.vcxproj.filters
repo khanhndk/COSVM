@@ -1,36 +1,64 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="Model">
+      <UniqueIdentifier>{5b56a504-675d-4d1e-b0df-154e55db52b8}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    <Filter Include="Learner">
+      <UniqueIdentifier>{5fbe7030-121c-40bc-9cbd-bbbb581be3db}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="Repport">
+      <UniqueIdentifier>{f43cbdf4-82ca-4418-876d-1a9777a2e2ec}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stdafx.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="alg_type.h">
+      <Filter>Model</Filter>
     </ClInclude>
-    <ClInclude Include="targetver.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="svm_model.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="svm_node.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="svm_parameter.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="svm_problem.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="learner.h">
+      <Filter>Learner</Filter>
+    </ClInclude>
+    <ClInclude Include="report.h">
+      <Filter>Repport</Filter>
+    </ClInclude>
+    <ClInclude Include="report_predict.h">
+      <Filter>Repport</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="kernel_type.h">
+      <Filter>Model</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="svm_problem.cpp">
+      <Filter>Model</Filter>
     </ClCompile>
-    <ClCompile Include="AOSVM.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="learner.cpp">
+      <Filter>Learner</Filter>
     </ClCompile>
+    <ClCompile Include="report.cpp">
+      <Filter>Repport</Filter>
+    </ClCompile>
+    <ClCompile Include="report_predict.cpp">
+      <Filter>Repport</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
 </Project>
