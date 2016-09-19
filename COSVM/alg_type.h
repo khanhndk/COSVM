@@ -36,6 +36,7 @@ enum {
 	OFOC_FF_H = 320,
 	OFOC_FF_SH = 321,
 	OFOC_FF_L = 322,
+	COSVM = 33,
 };	/* svm_type */
 
 struct alg_type {

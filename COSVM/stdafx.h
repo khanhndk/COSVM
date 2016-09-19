@@ -18,8 +18,11 @@ inline double powi(double base, int times)
 }
 
 #define Malloc(type,n) (type *)malloc((n)*sizeof(type))
-
-#define mydouble float
+#define FLOAT_MODE
+#ifdef FLOAT_MODE
+	#define mydouble float
+	#define MYMAXDBL FLT_MAX
+#endif
 
 #define SHOWERROR(name) {std::cout << name; std::getchar();}
 
@@ -57,7 +60,7 @@ inline double powi(double base, int times)
 
 
 #include "learner.h"
-
+#include "cosvm.h"
 
 
 // TODO: reference additional headers your program requires here
