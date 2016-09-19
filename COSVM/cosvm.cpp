@@ -107,7 +107,7 @@ report * solve_cosvm(svm_problem * train_prob, const svm_parameter * param)
 			//update KInvert
 			for (int c1 = 0; c1 < center_l; c1++)
 			{
-				KI_tmp = KInvert[c1];
+				KI_tmp = KInvert[c1];a
 				mydouble tmp = 0;
 				for (int c2 = 0; c2 < center_l; c2++)
 					tmp += (*KI_tmp)[c2] * kn[c2];
