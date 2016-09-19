@@ -1,3 +1,3 @@
-# AOSVM
-An implementation of Adaptive One-Class Support Vector Machine
-- Gómez-Verdejo, Vanessa, et al. "Adaptive one-class support vector machine." IEEE Transactions on Signal Processing 59.6 (2011): 2975-2981.
+# cOSVM
+An implementation of Online One-Class Support Vector Machine based on the Coherence Criterion
+- Noumir, Zineb, Paul Honeine, and Cédric Richard. "Online one-class machines based on the coherence criterion." EUSIPCO. 2012.
