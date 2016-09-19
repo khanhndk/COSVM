@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{0EBEDB30-0C40-41B6-8317-9E2ACE8CAF61}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>AOSVM</RootNamespace>
+    <RootNamespace>COSVM</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
